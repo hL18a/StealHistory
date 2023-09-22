@@ -14,7 +14,7 @@ Asegúrate de tener los siguientes requisitos instalados:
       import requests
       import psutil
 
-Instala PyInstaller:
+- Instala PyInstaller:
 
 Utiliza pip para instalar PyInstaller (és util para poder convertirlo a .exe , aparte de tener python instalado).
 Ejecuta el siguiente comando en la terminal:
