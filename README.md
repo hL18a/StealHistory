@@ -13,7 +13,14 @@ Asegúrate de tener los siguientes requisitos instalados:
   ```bash
       import requests
       import psutil
-  
+
+Instala PyInstaller:
+
+Utiliza pip para instalar PyInstaller (és util para poder convertirlo a .exe , aparte de tener python instalado).
+Ejecuta el siguiente comando en la terminal:
+`pip install pyinstaller`
+
+
 ## Configuración
 Configura tus credenciales de Telegram en un archivo llamado `config.py`
 en el mismo directorio que este programa. Debe contener una función `get_telegram_config`
