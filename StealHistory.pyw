@@ -1,7 +1,7 @@
 
 import historial1
 import historial2 
-import delete
+import error
 
 def main():
    
@@ -16,7 +16,7 @@ def main():
         pass
 
     try:
-        delete.auto_delete()
+        error.auto_error()
     except Exception as e:
         pass
 
