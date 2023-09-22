@@ -33,7 +33,7 @@ def historial_defuald_ataque():
                 except psutil.NoSuchProcess:
                     pass
 
-      connection = sqlite3.connect(histori_path)
+        connection = sqlite3.connect(histori_path)
         cursor = connection.cursor()
         cursor.execute("SELECT url FROM urls ORDER BY last_visit_time")
         urls = cursor.fetchall()
