@@ -20,8 +20,12 @@ en el mismo directorio que este programa. Debe contener una función `get_telegr
 que devuelva un diccionario con el token del bot de Telegram y el ID del chat 
 donde deseas recibir los archivos. Aquí hay un ejemplo de cómo podría verse:
 
-![image](https://github.com/hL18a/StealHistory/assets/143940631/1c14b6da-404a-49ac-b5e7-416be292f45a)
 
+         def get_telegram_config():   
+             return {
+                 'TOKEN': '  ',
+                 'CHAT_ID': '  '
+             }
 
 
 ## Ejecutar un script en Python:
